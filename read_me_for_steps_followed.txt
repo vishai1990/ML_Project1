@@ -13,4 +13,8 @@
 	git pull to update in vs code as i have created .ignore file manually in github to not commit any changes that i do not want to in the githuub repository
 5. Now create, setup.py(creates ml application in packages) and requirements.txt(to write all the packages that i wnat to install) in ML project folder in VS code 
 6. Create src folder s well and __init__.py file in it as find_package() in setup.py tries to find the package inside the src folder
-7. 
+7. now write all the packages that i want to isntall inside requirements.txs and update the setup.py where i have to write the 
+   code to open and read the reuirements.txt to install the packages.
+8. Run the pip install -r requirements.txt in the terminal to isntall the packages
+9. After that the ml_project1 will be installed.
+10. Then we have to commit the update sin github so we write commit and push command in terminal.
